@@ -1,12 +1,87 @@
-*{
-    padding: 0;
-    margin: 0;
-    
+* {
+  padding: 0;
+  margin: 0;
 }
-.main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: rebeccapurple;
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Roboto";
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: antiquewhite; */
+  height: 500px;
+  width: 600px;
+  flex-direction: column;
+}
+
+/* .title {
+    background-color: aqua;
+    text-align: center;
+} */
+
+.div-form {
+  /* background-color: aquamarine; */
+  display: flex;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+#form {
+  /* background-color: blue; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column; /* Coloca a label acima do input */
+  margin-bottom: 10px; /* Espaçamento entre os grupos de campos */
+}
+
+label {
+  margin-bottom: 5px;
+  color: #505050;
+}
+
+input {
+  border: 1px solid #e85b81;
+  border-radius: 5px;
+  background-color: FFFFFF;
+  width: 300px;
+  height: 40px ;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+input::placeholder{
+    color: #ABABAB;
+}
+input:focus {
+    border-color: #e85b81; 
+    box-shadow: 0 0 5px rgba(232, 91, 129, 0.8)
+}
+
+.calc-btn{
+    background-color: #e85b81;
+    width: 300px;
+}
+
+#btn{
+    width: 300px;
+    height: 40px ;
+    background-color: #E85B81;
+    border: none;
+    border-radius: 5px;
+
 }
